@@ -1,8 +1,25 @@
-.. image:: https://api.travis-ci.org/jbouvier/django-cms-redirects.svg?branch=master :target: https://travis-ci.org/jbouvier/django-cms-redirects
-
 django-cms-redirects
 =================
 A django app that lets you store simple redirects in a database and handles the redirecting for you.  Integrated with Django CMS to allow you to link directly to a page object.  Based off django.contrib.redirects.
+
+ - Forked from https://github.com/salvaorenick/django-cms-redirects
+ - and
+ - https://github.com/jbouvier/django-cms-redirects
+
+Added support for Django 1.8 (native migrations)
+
+Add to your settings.MIGRATION_MODULES:
+
+
+::
+    MIGRATION_MODULES = {
+        ...
+        'cms_redirects': 'cms_redirects.migrations_django',
+        ...
+    }
+
+
+
 
 Dependancies
 ============
