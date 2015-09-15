@@ -9,8 +9,6 @@ A django app that lets you store simple redirects in a database and handles the 
 Added support for Django 1.8 (native migrations)
 
 Add to your settings.MIGRATION_MODULES:
-
-
 ::
 	MIGRATION_MODULES = {
 	    'cms_redirects': 'cms_redirects.migrations_django',
