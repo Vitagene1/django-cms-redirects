@@ -16,8 +16,8 @@ setup(
     packages=find_packages(),
     install_requires=[
         'setuptools',
-        'django <1.6',
-        'django-cms <3'
+        'django <1.9',
+        'django-cms <4'
     ],
     include_package_data=True,
     zip_safe=False,
