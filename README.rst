@@ -13,9 +13,7 @@ Add to your settings.MIGRATION_MODULES:
 
 ::
 	MIGRATION_MODULES = {
-	    ...
 	    'cms_redirects': 'cms_redirects.migrations_django',
-	    ...
 	}
 
 
